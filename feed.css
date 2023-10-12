@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1877f2;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo img {
+    height: 40px;
+}
+
+.navbar .search input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.navbar .menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .menu ul li {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.whats-on-your-mind textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.whats-on-your-mind .post-button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.post-content {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.post img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.like-button {
+    color: #1877f2;
+}
+
+.comment-button {
+    color: #333;
+}
+
+/* Media queries for responsiveness */
+
+/* Small screens (e.g., mobile phones) */
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .navbar .search input {
+        width: 100%;
+    }
+
+    .navbar .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .menu ul li {
+        margin: 10px 0;
+    }
+
+    .whats-on-your-mind .post-button {
+        width: 100%;
+    }
+}
+
+/* Medium screens (e.g., tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+/* Large screens (e.g., desktops) */
+@media (min-width: 993px) {
+    .container {
+        max-width: 900px;
+    }
+}

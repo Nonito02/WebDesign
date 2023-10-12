@@ -1,0 +1,137 @@
+/* body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.comment-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.comment {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-content {
+    flex: 1;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.comment-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.comment-actions {
+    margin-top: 10px;
+}
+
+.like, .reply {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #007bff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .comment-container {
+        max-width: 100%;
+    }
+    .comment {
+        flex-direction: column;
+        align-items: center;
+    }
+    .avatar {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .comment-actions {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .comment {
+    
+    }
+} */
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.comment-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.comment {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* You can add a background image or customize this further for the avatar */
+}
+
+.comment-content {
+    flex: 1;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.comment-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.comment-actions {
+    margin-top: 10px;
+}
+
+.like, .reply {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #007bff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
